@@ -1,0 +1,1 @@
+{"version":3,"file":"cosmos.d.ts","sourceRoot":"","sources":["../../lib/cosmos.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,YAAY,EAAE,QAAQ,EAAE,SAAS,EAAE,MAAM,eAAe,CAAC;AASlE,eAAO,MAAM,eAAe,QAAO,YAKlC,CAAC;AAEF,eAAO,MAAM,WAAW,QAAa,OAAO,CAAC,QAAQ,CAOpD,CAAC;AAEF,eAAO,MAAM,YAAY,GAAU,aAAa,MAAM,KAAG,OAAO,CAAC,SAAS,CAIzE,CAAC;AAGF,eAAO,MAAM,UAAU;;;;;CAKb,CAAC"}
