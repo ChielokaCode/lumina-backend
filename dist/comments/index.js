@@ -4,7 +4,6 @@ exports.getComments = getComments;
 exports.createComment = createComment;
 exports.deleteComment = deleteComment;
 const cosmos_1 = require("../lib/cosmos");
-// import { cacheGet, cacheSet, cacheDelete, CACHE_KEYS } from '../lib/redis';
 const uuid_1 = require("uuid");
 // GET /api/photos/:photoId/comments - Get comments for a photo
 async function getComments(request, context) {

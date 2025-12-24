@@ -12,11 +12,11 @@
     "id": "Microsoft.Azure.Functions.ExtensionBundle",
     "version": "[4.*, 5.0.0)"
   },
-  "Host": {
-    "CORS": [
+  "cors": {
+    "allowedOrigins": [
       "http://localhost:8080",
       "https://purple-flower-0eb5ad90f.1.azurestaticapps.net"
     ],
-    "CORSCredentials": true
+    "supportCredentials": true
   }
 }

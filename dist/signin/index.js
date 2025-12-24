@@ -7,7 +7,7 @@ exports.signin = signin;
 const cosmos_1 = require("../lib/cosmos");
 const bcrypt_1 = __importDefault(require("bcrypt"));
 const jsonwebtoken_1 = __importDefault(require("jsonwebtoken"));
-const JWT_SECRET = process.env.JWT_SECRET || 'your_jwt_secret_key';
+const JWT_SECRET = process.env.JWT_SECRET || '';
 async function signin(request, context) {
     try {
         const body = (await request.json());
